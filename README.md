@@ -1,1 +1,1 @@
-# brit-med-demo-static
+# brit-med-static

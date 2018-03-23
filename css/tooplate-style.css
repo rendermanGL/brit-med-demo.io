@@ -496,6 +496,37 @@ http://www.tooplate.com/view/2098-health
     margin: 0;
   }
 
+  /*---------------------------------------
+      ORTHAEOPEDICS PAGE
+  -----------------------------------------*/
+  #ortho-page {
+    background: url('../images/slider1.jpg') no-repeat top center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .profile img,
+  .profile figcaption {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1em;
+  }
+  .profile img {
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin-right: 1em;
+  }
+  .profile figcaption h3 {
+    margin-top: 0;
+  }
+
+  #ortho-page h6 {
+    color: #858585;
+    margin: 0;
+  }
+
 
 
   /*---------------------------------------

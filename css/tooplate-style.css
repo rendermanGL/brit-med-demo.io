@@ -462,11 +462,14 @@
   -----------------------------------------*/
 
   #about {
-    background: url('../images/about-bg.jpg') no-repeat top center;
+    background: url('../images/multicultural .jpg') no-repeat top center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
+   
+    
   }
+
 
   .profile img,
   .profile figcaption {

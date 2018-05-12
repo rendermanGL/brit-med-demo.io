@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Brit-Med Healthcare Providers</title>
+        <title>Brit-Med Procedures Payments</title>
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -82,10 +82,10 @@
     
                         <div class="col-md-6 col-sm-6">
                             <div class="about-info">
-                                <h2 class="wow fadeInUp" data-wow-delay="0.6s"> Book Consultation </h2>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.6s"> Procedures Payment </h2>
                                 
                                 <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                    <p>You have selected: 3rd September 2018 at 14:00</p>
+                                    <p>Hip Revision Surgery</p>
                                 </div>
 
                             </div>
@@ -105,16 +105,49 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="about-info">                                       
                                 <div class="wow fadeInUp" date-wow-delay="0.8s">
-                                    <p><b> To complete your consultation booking, you are now required to pay a consultation fee of £250.00. </b></p>
-                                    <p>This fee is non-refundable and determines your suitability for treatment. Please ensure your answer all questions to the best of your ability and submit all requested and relevant documents prior to the consultation.</p>
+                                    <p>Please select the date for your procedure.</p>
+                                    <p>Please ensure that you leave sufficient time to make your travel arrangements including obtaining a travel Visa (if one is required).</p>
+                                    <p>You will be required to tattled a scan on arrival in the UK. We would recommend that you have your scan on the day you arrive into the UK as the scans take place in London. Please make allowances for traffic to travel to your scan and if arriving late at night, book to stay at an airport hotel then travel to your sen the following day.</p>
                                 </div>
 
-                                <div class="checkbox">
+                                <!-- <div class="checkbox">
                                     <label><input type="checkbox" value="">Do you require an interpreter for your consultation? (£15.00)</label>
-                                </div>
+                                </div> -->
+
+                                <div class="container">
+                                        <div class="row">
+                                            <div class='col-md-6 col-sm-6'>
+                                                <p><b>Select a Date : </b></p>
+                                                <div class="input-group date" data-provide="datepicker">
+                                                    <input type="text" class="form-control" placeholder="09/03/2018">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                            <div class="col-md-6 col-sm-6">
+                                                <p><b>Select a Time : </b></p>
+                                                <div class="input-group date" data-provide="datepicker">
+                                                    <input type="text" class="form-control" placeholder="14:00">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                            <div class="col-md-12 col-sm-6">
+                                                <div class="confirm_booking" style="padding-top: 5%;">
+                                                    <a href="bookingConfirmation.html" style="width:100%;" class="section-btn btn btn-default btn-blue smoothScroll"> Confirm Booking </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
 
                                 <div style="padding-top: 35px;">
-                                    <a href="#" id="customButton" class="section-btn btn btn-default btn-green smoothScroll">Click to confirm & pay for your consultation</a>
+                                    <a href="#" id="customButton" class="section-btn btn btn-default btn-green smoothScroll">Click to confirm & pay for your Procedure</a>
                                 </div>
 
                             </div>
@@ -234,8 +267,8 @@
                 // Open Checkout with further options:
                 handler.open({
                 name: 'Brit-Med',
-                description: 'Hip Consultation',
-                amount: 26500.0,
+                description: 'Hip Revision Surgery',
+                amount: 125000.0,
                 currency: 'GBP'
                 });
                 e.preventDefault();

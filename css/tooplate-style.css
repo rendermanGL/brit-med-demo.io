@@ -531,6 +531,17 @@
 
 
   /*---------------------------------------
+      PAYMENT PAGE
+  -----------------------------------------*/
+#Payment {
+  background: url('../images/payment-background.jpg') no-repeat top center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+
+  /*---------------------------------------
       TEAM MEMBERS              
   -----------------------------------------*/
 

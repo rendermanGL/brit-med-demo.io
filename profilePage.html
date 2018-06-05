@@ -198,7 +198,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6" style="padding:0; padding-top: 20px; width: 100%;">
                     <!-- <a href="#" style="width: 100%;" class="section-btn btn btn-default btn-blue smoothScroll">Join Your Consultation</a> -->
-                    <button id="join_consultation_button" style="width: 1005;" type="button" class="btn btn-block btn-primary disabled"> Join Consultation </button>
+                    <button id="join_consultation_button" style="width: 100;" type="button" class="btn btn-block btn-primary disabled"> Join Consultation </button>
                     
                 </div>   
             </div>
@@ -353,7 +353,13 @@
             }
 
             function confirmChecked(target) {
-                var checked = document.getElementById(target).checked;
+                var checked1 = document.getElementById(target).checked;
+                var checked2 = document.getElementById(target).checked;
+                var checked3 = document.getElementById(target).checked;
+                var joinConsultationButton = document.getElementById("join_consultation_button");
+                if(checked1 && checked2 && checked3){
+                    joinConsultationButton.className = joinConsultationButton.className.replace(" disabled", "enabled");
+                }
 
             }
 
